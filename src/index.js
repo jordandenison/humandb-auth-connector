@@ -29,7 +29,7 @@ const authenticate = async (email, password) => {
 
     await delay(5000)
 
-    return authenticate()
+    return authenticate(email, password)
   }
 }
 
